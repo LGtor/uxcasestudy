@@ -1,0 +1,199 @@
+* {
+    border-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ @font-face{ 
+    font-family: 'JINKY';
+    src: url('../fonts/JINKY-webfont.eot');
+    src: url('../fonts/JINKY-webfont.?iefix') format('eot'),
+         url('../fonts/JINKY-webfont.woff') format('woff'),
+         url('../fonts/JINKY-webfont.ttf') format('truetype'),
+         url('../fonts/JINKY-webfont.svg#webfont') format('svg');
+}
+
+$white:#ecf0f1;
+$grey:#95a5a6;
+$red:#c0392b;
+
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^GLOBAL STYLES AND DEPENDANCIES^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.home {
+
+    width: 100%;
+    height: 700px;
+    background: $white;
+    border-bottom: 1px solid $red;
+
+                          
+
+                            h1 {
+                                font-family: helvetica, arial;
+                                text-align: center;
+                                font-size: 55px;
+                                 font-weight: 200;
+                                margin: 0;
+                                padding: 10% 0 0 0;
+                            }
+
+                          
+
+
+                            h2{
+                            font-family: helvetica, arial;
+                            text-align: center;
+                            font-size: 30px;
+                            font-weight: 100;
+                            margin: 0;
+                            padding: 2% 0;
+
+                                                        .redtext{
+                                                        font-family: 'JINKY',helvetica, arial;
+                                                        text-align: center;
+                                                        font-size: 50px;
+                                                        margin: 0;   
+                                                        color: $red;
+                                                        }
+                            }
+
+} 
+
+
+
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^HOME STYLES^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+.brainstorm {
+
+
+    width: 100%;
+    height: 700px;
+    background: $white;
+
+
+
+
+                           h3{
+                            font-family: helvetica, arial;
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 100;
+                            line-height: 55px;
+                            margin: 0;
+                            padding: 10%;
+                                                
+                                                .redtext{
+                                                font-family: 'JINKY',helvetica, arial;
+                                                text-align: center;
+                                                font-size: 80px;
+                                                margin: 0; 
+
+                                                color: $red;
+                                                }
+                           } 
+
+                           .storm{
+                            width: 20%;
+                            height: auto;
+                            margin-left:40%;
+
+                           }
+
+}
+
+
+// ::::::::::::::::::::::::::::::::::::::::BRAINSTORM EXAMPLE STYLES::::::::::::::::::::::::::::::
+
+
+.brainstormexample{
+    width: 100%;
+    height: 700px;
+    background: $red;
+    border-bottom: 1px solid $grey;
+
+
+                                .left{
+                                    width: 50%;
+                                    height: 100%;
+                                   
+
+
+                                                            .largetext{
+
+                                                                font-family: helvetica, arial;
+                                                                text-align: left;
+                                                                font-size: 40px;
+                                                                font-weight: 100;
+                                                                line-height: 55px;
+                                                                color:$white;
+                                                                margin:0;
+                                                                padding: 15% 0 2% 12%;
+                                                                
+
+
+
+                                                                                        
+
+                                                            }
+
+                                                            .link{
+
+                                                             font-family: helvetica, arial;
+                                                             text-align: left;
+                                                             font-size: 25px;
+                                                             font-weight: 100;
+                                                             color:black;
+                                                             margin: 0;
+                                                             padding: 0 12%; 
+                                                             text-decoration: none;  
+
+
+                                                            }
+
+                                                            .link:hover{
+
+                                                                color:green;
+
+
+                                                            }
+
+                                                            p {
+
+                                                                font-family: helvetica, arial;
+                                                                text-align: left;
+                                                                font-size: 25px;
+                                                                font-weight: 100;
+                                                                color:black;
+                                                                margin: 0;
+                                                                padding: 0 12%;
+
+                                                            }
+                              
+                                }
+
+
+                            .right{
+
+                                width: 50%;
+                                height: 100%;
+                               float: right;
+                               
+
+
+                                                    .lipstick{
+                                                    
+                                                        height: 85%;
+                                                        width: auto;
+                                                        margin-top:8%;
+                                                        padding: 0 5%;
+
+                                                    }
+                           }
+
+                                                       
+}
+
+
