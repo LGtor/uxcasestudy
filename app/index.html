@@ -1,83 +1,70 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>processapp</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="/favicon.ico">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
+<head>
+    <meta charset="utf-8">
+    <title>processapp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
 
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-    </head>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+            <![endif]-->
 
 
-        <div class="home">
+            <div class="home">
+                <h1>A Guide Through My UX Process</h1>
+                <h2> <span class="redtext">Case Study</span> Included...</h2>
+            </div>
 
-           
-            <h1>A Guide Through My UX Process</h1>
-            <h2> <span class="redtext">Case Study</span> Included...</h2>
-            
-
-
-          
-        </div>
-
-                <article class="brainstorm">
+            <article class="brainstorm">
+                <h3> It Starts When A Digital <span class="redtext">Problem</span> Meets A Creative Brainstorm</h3>
+                <img class="storm" src="../images/storm.png">
+            </article>
 
 
-                                   
-                    <h3> It Starts When A Digital <span class="redtext">Problem</span> Meets A Creative Brainstorm</h3>
-                    <img class="storm" src="../images/storm.png">
+            <article class="brainstormexample">
 
-                </article>
+                <div class="right">
+                    <img class="lipstick" src="../images/lipstick.png">
+                </div>
 
+                <div class="left">
+                    <p class="largetext">Client</p>
+                    <a class="link" href="http://beautezine.com">Beautezine.com</a>
+                    <p class="largetext">Problem:</p>
+                    <p>Beautezine's CEO came to me with a concern she was having regarding her readership being confused about what content on the home page was new and what was older. Dispite having regular content updates, she observed that the newer the post, the less frequent the click through rate was. 
+                    </p>
+                </div>
+            </article>
 
-                <article class="brainstormexample">
-                    
-                    <div class="right">
-                        <img class="lipstick" src="../images/lipstick.png">
-                    </div>
+            <article class="userdata">
+                 <h3>Next, I Get To Know The <span class="redtext">Users</span> and Study The Data</h3>   
+                 <img class="users" src="../images/users.png">
+                 <!-- Image Designed by Wilson Joseph -->
 
-                    <div class="left">
-                           
-                            <p class="largetext">Client</p>
-
-                                <a class="link" href="http://beautezine.com">Beautezine.com</a>
-                            <p class="largetext">Problem:</p>
-                                <p> The CEO had heard some readers explain that the homepage (dispite having regular new content) appeared as if it had content updates less-frequently do to the layout of the thumbnails on the home page.  She also observed a frequent number of entrances to the site on the "recent" posts page, indicating that readers were bookmarking a page other the homepage and were often times bypassing new content.</p>
-
-
-
-                    </div>
-
-                    
-                                
-
-                </article>
+            </article>
+            <!-- build:js scripts/vendor.js -->
+            <!-- bower:js -->
+            <script src="../bower_components/jquery/dist/jquery.js"></script>
+            <!-- endbower -->
+            <!-- endbuild -->
 
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
 
-       
-      
 
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
+            <!-- build:js({app,.tmp}) scripts/main.js -->
+            <script src="scripts/main.js"></script>
+            <!-- endbuild -->
+    </body>
 </html>

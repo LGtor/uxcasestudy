@@ -197,3 +197,42 @@ $red:#c0392b;
 }
 
 
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^BRAINSTORM STYLES^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+.userdata{
+    width: 100%;
+    height: 700px;
+    background: $white;
+    border-bottom: 1px solid $red;
+
+
+                                    h3 {
+                                     font-family: helvetica, arial;
+                                     text-align: center;
+                                     font-size: 40px;
+                                     font-weight: 100;
+                                     line-height: 55px;
+                                     margin: 0;
+                                     padding: 10%;
+                                                         
+                                                         .redtext{
+                                                         font-family: 'JINKY',helvetica, arial;
+                                                         text-align: center;
+                                                         font-size: 80px;
+                                                         margin: 0; 
+
+                                                         color: $red;
+                                                         }
+                                    } 
+
+
+
+
+                                .users{
+                                 width: 30%;
+                                height: auto;
+                                margin-left:36%;
+
+                                 }
+}
